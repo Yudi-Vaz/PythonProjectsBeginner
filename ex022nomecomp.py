@@ -1,0 +1,7 @@
+nome=input('Qual seu nome completo?')
+mai=(nome.upper())
+min=(nome.lower())
+let = len(nome) - nome.count(" ")
+primnome = nome.split()
+contprim = len(primnome[0])
+print('Seu nome em letras maiúsculas será', mai,'\nSeu nome em letras minúsculas será', min, '\nE seu nome tem', let, 'letras','\nE seu primeiro nome tem', contprim,'letras.')
